@@ -27,9 +27,7 @@ Now, within `index.ejs` you can iterate over the `_contents`, referencing each f
 <% for(var i in public.images._contents){ %>
   <% var image = public.images._contents[i] %>
   <% if ( image.match(/\b.(jpg|bmp|jpeg|gif|png|tif)\b/gi) ) { %>
-		<div>
-			<img src="images/<%= image %>" />
-		</div>
+		<img src="images/<%= image %>" />
   <% } %>
 <% } %>
 ```

@@ -20,6 +20,11 @@ With Harp, you don’t need to compile or watch your project at all times—the 
 harp compile [options] [projectPath] [outputPath]
 ```
 
+### [options]
+* option_1
+* option_2
+* ...
+
 ## Mobile Example
 
 Try creating a project called `mobileapp` by running `harp init mobileapp` and then compiling it:
